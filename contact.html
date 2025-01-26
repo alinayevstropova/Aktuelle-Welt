@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>AktuelleWelt</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="./img/icon.webp" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+    <style>
+      .fixed-header {
+        position: fixed;
+        z-index: 1000;
+        background: #151872;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="p-0">
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-border text-primary"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <!-- Spinner End -->
+
+      <!-- Carousel Start -->
+      <div class="container-fluid px-0 fixed-header">
+        <div class="row gx-0">
+          <div class="col-lg-5 d-none d-lg-block">
+            <a
+              href="index.html"
+              class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
+            >
+              <h1
+                style="font-size: 25px"
+                class="m-0 text-primary text-uppercase logo-img"
+              >
+                AktuelleWelt
+              </h1>
+            </a>
+          </div>
+          <div class="col-lg-7">
+            <nav class="navbar navbar-expand-lg navbar-dark p-3 p-lg-0">
+              <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 text-primary text-uppercase logo-img">
+                  AktuelleWelt
+                </h1>
+              </a>
+              <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-between"
+                id="navbarCollapse"
+              >
+                <div class="navbar-nav mr-auto py-0">
+                  <a href="index.html" class="nav-item nav-link">Startseite</a>
+                  <a href="catalog.html" class="nav-item nav-link">Katalog</a>
+                  <a href="about.html" class="nav-item nav-link">Über uns</a>
+                  <a href="contact.html" class="nav-item nav-link">Kontakt</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <header class="header" style="background-image: url(./img/about12.jpeg)">
+        <div class="container">
+          <h1
+            class="title"
+            style="
+              color: #fff;
+              background-color: rgba(0, 0, 0, 0.7);
+              padding: 10px 20px;
+            "
+          >
+            Kontakt
+          </h1>
+        </div>
+      </header>
+      <!-- Carousel End -->
+      <!-- <section>
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-12 col-sm-12"
+              style="margin-bottom: 60px; margin-top: 60px"
+            >
+              <h3>Service packages</h3>
+              <div class="row">
+                <div
+                  class="col-md-12 col-sm-12"
+                  style="margin-bottom: 20px; padding: 20px"
+                >
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h5>Classic Package</h5>
+                      <p>
+                        The Classic Package is designed for couples who need
+                        expert guidance throughout the entire planning process
+                        but want to be more hands-on with decision-making. This
+                        package covers the essentials, ensuring that you have
+                        professional support while still being involved in key
+                        aspects of your wedding.
+                      </p>
+                      <p>
+                        <strong> What’s Included:</strong> <br />
+
+                        - Initial consultation and ongoing planning meetings
+
+                        <br />
+                        - Vendor recommendations and booking assistance <br />
+                        - Venue selection support
+                        <br />
+                        - Timeline creation and coordination with all vendors
+                        <br />
+                        - Day-of coordination and on-site support
+                        <br />
+                        - Assistance with decor ideas and overall event design
+                      </p>
+                      <p
+                        style="
+                          text-align: right;
+                          font-weight: bold;
+                          font-size: 20px;
+                        "
+                      >
+                        Starting at £3,500
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <img
+                        src="./img/sale_1.webp"
+                        alt=""
+                        style="width: 100%; margin-bottom: 20px"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-12 col-sm-12"
+                  style="margin-bottom: 20px; padding: 20px"
+                >
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h5>Luxury Package</h5>
+                      <p>
+                        "The Luxury Package is perfect for couples who want a
+                        stress-free, all-inclusive experience. We handle every
+                        detail from start to finish, offering full-scale
+                        planning and design services to create an unforgettable,
+                        high-end wedding that reflects your vision."
+                      </p>
+                      <p>
+                        <strong>What’s Included:</strong><br />
+                        - Comprehensive wedding planning from start to finish<br />
+                        - Full vendor management and negotiations<br />
+                        - Unlimited consultations and planning meetings<br />
+                        - Custom decor and floral design<br />
+                        - Full-day on-site coordination with lead planner and
+                        team
+                      </p>
+                      <p
+                        style="
+                          text-align: right;
+                          font-weight: bold;
+                          font-size: 20px;
+                        "
+                      >
+                        Starting at £8,000
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <img
+                        src="./img/sale_2.webp"
+                        alt=""
+                        style="width: 100%; margin-bottom: 20px"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-12 col-sm-12"
+                  style="margin-bottom: 20px; padding: 20px"
+                >
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h5>Destination Wedding Package</h5>
+                      <p>
+                        "For couples dreaming of saying 'I do' abroad, the
+                        Destination Wedding Package offers full-service planning
+                        for weddings at breathtaking locations around the world.
+                        From securing the perfect venue to managing logistics
+                        for you and your guests, we ensure a seamless
+                        international celebration."
+                      </p>
+                      <p>
+                        <strong>What’s Included:</strong><br />
+                        - Full coordination of legal and travel requirements<br />
+                        - Venue scouting and booking in your desired location<br />
+                        - Vendor management, including local florists, caterers,
+                        and photographers<br />
+                        - Guest accommodation coordination and group travel
+                        arrangements<br />
+                        - Day-of coordination with local team
+                      </p>
+                      <p
+                        style="
+                          text-align: right;
+                          font-weight: bold;
+                          font-size: 20px;
+                        "
+                      >
+                        Starting at £10,000
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <img
+                        src="./img/sale_3.webp"
+                        alt=""
+                        style="width: 100%; margin-bottom: 20px"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <div id="contact" style="margin-bottom: 120px">
+        <div class="container">
+          <div class="wow fadeInUp" data-wow-delay="0.1s">
+            <h2 class="section-title">Kontaktieren Sie uns</h2>
+            <p>
+              Bei AktuelleWelt glauben wir an den direkten Austausch und die
+              enge Verbindung zu unserer Leserschaft. Wir sind ein kreatives
+              Team von Journalisten, Redakteuren und Experten, die ihre
+              Leidenschaft für Kunst, Sport und Kultur teilen. Unsere Arbeit
+              basiert auf der Überzeugung, dass Nachrichten mehr sein sollten
+              als nur Fakten – sie sollten Geschichten erzählen, Menschen
+              inspirieren und eine Plattform für Diskussionen bieten. Daher
+              freuen wir uns immer über Feedback, Anregungen und den Dialog mit
+              unseren Lesern.
+            </p>
+            <p style="margin-bottom: 50px">
+              Wenn Sie Fragen haben, eine Zusammenarbeit vorschlagen oder
+              einfach Ihre Meinung teilen möchten, zögern Sie nicht, uns zu
+              kontaktieren. Wir sind immer offen für neue Ideen und spannende
+              Projekte. Ihre Meinung ist uns wichtig, und wir freuen uns darauf,
+              von Ihnen zu hören!
+            </p>
+          </div>
+          <div class="row contact-info">
+            <div class="col-md-6 col-sm-12">
+              <div style="margin-bottom: 10px">
+                <h3 style="color: #f3f3f3; display: inline">Telefon:</h3>
+
+                <p style="font-size: 1.1em">
+                  +4989124136800 <br />
+                  Montag bis Freitag von 9:00 bis 18:00 Uhr
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+              <div style="margin-bottom: 20px">
+                <h3 style="color: #f3f3f3">Adresse:</h3>
+                <p style="font-size: 1.1em">
+                  Herzog-Heinrich-Straße 38, 80336 München, Deutschland <br /><br />
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-4" style="margin-top: 90px">
+            <div class="col-md-6">
+              <div class="wow fadeInUp" data-wow-delay="0.2s">
+                <form style="color: #333333">
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Dein Name"
+                        />
+                        <label for="name">Vorname</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="surname"
+                          placeholder="Dein Nachname"
+                        />
+                        <label for="surname">Nachname</label>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-floating">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          placeholder="Deine E-Mail-Adresse"
+                        />
+                        <label for="email">E-Mail-Adresse</label>
+                        <p style="color: red" id="result"></p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12">
+                      <div class="form-floating">
+                        <input
+                          style="
+                            margin-bottom: 10px;
+                            padding-top: 15px;
+                            padding-bottom: 15px;
+                          "
+                          id="phone"
+                          type="tel"
+                          placeholder="Telefon"
+                          class="form-control"
+                          oninput="validateAndFormatPhoneNumber(this)"
+                        />
+                        <p style="color: red" id="phoneResult"></p>
+                      </div>
+                    </div>
+
+                    <div
+                      class="col-12 wow fadeIn"
+                      data-wow-delay="0.9s"
+                      style="margin-top: 20px"
+                    >
+                      <select
+                        id="question"
+                        class="form-control"
+                        style="margin-bottom: 10px; padding: 15px 10px"
+                      >
+                        <option value="">Thema des Aufrufs:</option>
+                        <option value="consultation">Sport</option>
+                        <option value="real-estate-sale">Kunst</option>
+                        <option value="real-estate-purchase">Kultur</option>
+                      </select>
+                      <p style="color: red" id="questionResult"></p>
+                    </div>
+
+                    <div class="col-12">
+                      <button
+                        id="submit"
+                        onclick="sendForm()"
+                        class="btn btn-primary w-100 py-3"
+                        type="submit"
+                      >
+                        Nachricht senden
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
+         
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42602.15927691041!2d11.484866948632801!3d48.136562799999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7589d33aaaa1%3A0x40db1480f69e6698!2sLohm%C3%BCller%20%26%20Company%20Group%20(L%26C%20Group%20Holding%20GmbH)!5e0!3m2!1sde!2sua!4v1737657442959!5m2!1sde!2sua"
+                width="100%"
+                height="430"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact End -->
+
+      <!-- Footer Start -->
+      <div
+        class="container-fluid bg-dark text-light footer wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container pb-5">
+          <div class="row g-5">
+            <div class="col-md-2 col-lg-3">
+              <div class="bg-primary rounded p-2">
+                <p class="text-white mb-0 text-uppercase">
+                  <a href="index.html" style="color: #ffffff">AktuelleWelt</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <p class="mb-2">+4989124136800</p>
+              <p class="mb-2">AktuelleWelt@gmail.com</p>
+              <p class="mb-2">Herzog-Heinrich-Straße 38, 80336 München, Deutschland</p>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="row">
+                <div class="col-md-6">
+                  <a href="index.html" class="btn-link">Startseite</a>
+                  <a href="catalog.html" class="btn-link">Katalog</a>
+                  <a href="about.html" class="btn-link">Über uns</a>
+                  <a href="contact.html" class="btn-link">Kontakt</a>
+                </div>
+                <div class="col-md-6">
+                  <a class="btn-link" href="privacy-policy.html"
+                    >Datenschutzerklärung
+                  </a>
+                  <a class="btn-link" href="terms-of-use.html"
+                    >Nutzungsbedingungen</a
+                  >
+                  <a class="btn-link" href="information.html">
+                    Business Model</a
+                  >
+                  <a class="btn-link" href="cookies.html">Cookie-Richtlinie</a>
+                  <a class="btn-link" href="disclaimer.html">Disclaimer</a>
+                </div>
+              </div>
+            </div>
+            <!-- 
+            <div class="col-md-10 text-start">
+              <h5>Disclaimer</h5>
+              <p>
+               El contenido de este sitio web, incluidas todas las imágenes y textos, es propiedad exclusiva de AktuelleWelt o de sus respectivos autores y está protegido por derechos de autor. Cualquier reproducción, distribución o uso no autorizado está estrictamente prohibido. Para consultas sobre derechos o colaboraciones, contáctanos directamente.
+              </p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+
+      <!-- Cookie banner -->
+      <!-- <div class="cookie-wrapper show">
+        <div>
+          <i class="bx bx-cookie"></i>
+          <h2 style="text-align: center">Cookie consent</h2>
+        </div>
+        <div class="data">
+          <p>
+            This website uses cookies to help you have a superior and more
+            relevant browsing experience on the website.
+          </p>
+        </div>
+
+        <div class="buttons">
+          <button class="cookie-button" id="acceptBtn">Accept</button>
+          <button class="cookie-button" id="declineBtn">Decline</button>
+        </div>
+      </div> -->
+      <!-- End Cookie banner -->
+
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+    <script>
+      function validatePhoneNumber(input) {
+        input.value = input.value.replace(/\D/g, "");
+      }
+
+      function validateAndFormatPhoneNumber(input) {
+        // Очищення всіх символів, окрім цифр
+        input.value = input.value.replace(/\D/g, "");
+      }
+    </script>
+  </body>
+</html>

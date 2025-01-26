@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>AktuelleWelt</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="./img/icon.webp" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+    <style>
+      .fixed-header {
+        position: fixed;
+        z-index: 1000;
+        background: #151872;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="p-0">
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-border text-primary"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <!-- Spinner End -->
+
+      <!-- Carousel Start -->
+      <div class="container-fluid px-0 fixed-header">
+        <div class="row gx-0">
+          <div class="col-lg-5 d-none d-lg-block">
+            <a
+              href="index.html"
+              class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center"
+            >
+              <h1
+                style="font-size: 25px"
+                class="m-0 text-primary text-uppercase logo-img"
+              >
+                AktuelleWelt
+              </h1>
+            </a>
+          </div>
+          <div class="col-lg-7">
+            <nav class="navbar navbar-expand-lg navbar-dark p-3 p-lg-0">
+              <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 text-primary text-uppercase logo-img">
+                  AktuelleWelt
+                </h1>
+              </a>
+              <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-between"
+                id="navbarCollapse"
+              >
+                <div class="navbar-nav mr-auto py-0">
+                  <a href="index.html" class="nav-item nav-link">Startseite</a>
+                  <a href="catalog.html" class="nav-item nav-link">Katalog</a>
+                  <a href="about.html" class="nav-item nav-link">Über uns</a>
+                  <a href="contact.html" class="nav-item nav-link">Kontakt</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <header class="header">
+        <div
+          class="container wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="background-color: rgba(0, 0, 0, 0.8)"
+        >
+          <h1 class="title" style="color: #ffffff">
+            Entdecken Sie die Welt der Kunst, des Sports und der Kultur!
+          </h1>
+          <h5 style="color: #ffffff">
+            Die neuesten Nachrichten, Interviews, Analysen und spannende
+            Ereignisse aus der Welt der Kunst, des Sports und der Kultur, die
+            Sie nicht verpassen sollten.
+          </h5>
+          <a href="#contact" class="btn-primary">Jetzt abonnieren</a>
+        </div>
+      </header>
+      <!-- Carousel End -->
+
+      <section class="details" id="eventdetails">
+        <div class="container" style="background-color: #1a1b38">
+          <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-3 align-items-center">
+              <div class="col-md-3">
+                <img
+                  src="./img/about-01.jpg"
+                  alt=""
+                  style="width: 100%; height: 550px; object-fit: cover"
+                />
+              </div>
+              <div class="col-md-6">
+                <h2 class="section-title mb-3" style="color: #fff">
+                  Wer wir sind und was wir tun
+                </h2>
+                <p>
+                  Willkommen bei AktuelleWelt – Ihrem Fenster zur faszinierenden
+                  Welt der Kunst, des Sports und der Kultur. Wir sind ein
+                  engagiertes Team von Journalisten und Experten, die es sich
+                  zur Aufgabe gemacht haben, Ihnen die neuesten Trends,
+                  tiefgründige Analysen und inspirierende Geschichten aus diesen
+                  Bereichen zu präsentieren. Unser Ziel ist es, Sie immer auf
+                  dem Laufenden zu halten und Ihnen einen einzigartigen Blick
+                  auf die Geschehnisse der Welt zu bieten.
+                </p>
+                <p>
+                  Unsere Leidenschaft für Kunst, Sport und Kultur treibt uns an,
+                  Themen aufzugreifen, die die Gesellschaft bewegen. Von
+                  spannenden Ausstellungen und ikonischen Sportereignissen bis
+                  hin zu kulturellen Phänomenen – wir berichten nicht nur über
+                  das, was gerade passiert, sondern liefern Ihnen auch
+                  tiefgehende Hintergründe und Perspektiven, die oft über das
+                  Offensichtliche hinausgehen.
+                </p>
+                <p>
+                  Ob Sie ein Kunstliebhaber, ein Sportenthusiast oder ein
+                  Kulturinteressierter sind – AktuelleWelt bietet für jeden
+                  etwas. Mit einem Fokus auf Qualität und Relevanz sind wir
+                  stolz darauf, eine Plattform zu sein, die die Vielfalt dieser
+                  Themen in einem modernen, ansprechenden Format präsentiert.
+                </p>
+              </div>
+
+              <div class="col-md-3">
+                <img
+                  src="./img/about-02.jpg"
+                  alt=""
+                  style="width: 100%; height: 550px; object-fit: cover"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- <h2 class="section-title">We offer</h2> -->
+        </div>
+      </section>
+
+      <section>
+        <div class="container" style="background-color: #1a1b38">
+          <div class="row">
+            <div
+              class="col-md-12 col-sm-12"
+              style="margin-bottom: 10px; margin-top: 40px"
+            >
+              <h2 style="margin-bottom: 30px">Aktuelle Meldungen</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-sm-12">
+                <div
+                  style="
+                    margin-bottom: 20px;
+                    padding: 20px;
+                    border: 1px solid #4a4b6d;
+                    text-align: center;
+                  "
+                >
+                  <img
+                    src="./img/about-1.jpg"
+                    alt="Sportliche Sensation: Deutschland gewinnt die Weltmeisterschaft im Handball"
+                    width="100%"
+                    style="margin-top: 10px; margin-bottom: 10px; height: 330px; object-fit: cover;"
+                  />
+                  <h4>Deutschland gewinnt die Weltmeisterschaft im Handball</h4>
+                  <p>
+                    Deutschland hat die Handball-Weltmeisterschaft gewonnen und
+                    sich mit einem 28:27-Sieg im spannenden Finale gegen
+                    Frankreich den vierten Titel gesichert. Die herausragende
+                    Leistung des Torwarts und die taktische Meisterleistung des
+                    Trainerteams machten diesen historischen Erfolg möglich und
+                    sorgten für landesweite Begeisterung.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-12">
+                <div
+                  style="
+                    margin-bottom: 20px;
+                    padding: 20px;
+                    border: 1px solid #4a4b6d;
+                    text-align: center;
+                  "
+                >
+                  <img
+                    src="./img/about-2.jpg"
+                    alt="Neue Ausstellung im Museum für moderne Kunst"
+                    width="100%"
+                    style="margin-top: 10px; margin-bottom: 10px; height: 330px; object-fit: cover;"
+                  />
+                  <h4>
+                    Neue Ausstellung im Museum für moderne Kunst begeistert
+                    Besucher
+                  </h4>
+                  <p>
+                    Die Ausstellung „Grenzen der Wahrnehmung“ im Museum für
+                    moderne Kunst in Berlin hat die Besucher mit interaktiven
+                    Installationen und digitalen Kunstwerken fasziniert. Sie
+                    lädt dazu ein, die Wahrnehmung von Kunst neu zu entdecken
+                    und sich mit innovativen Konzepten auseinanderzusetzen. Die
+                    Ausstellung ist noch bis Ende Februar zu sehen.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-12">
+                <div
+                  style="
+                    margin-bottom: 20px;
+                    padding: 20px;
+                    border: 1px solid #4a4b6d;
+                    text-align: center;
+                  "
+                >
+                  <img
+                    src="./img/about-3.jpg"
+                    alt="Das Beethoven-Jahr in Bonn startet mit großem Konzert"
+                    width="100%"
+                    style="margin-top: 10px; margin-bottom: 10px; height: 330px; object-fit: cover;"
+                  />
+                  <h4>
+                    Kulturelle Neuigkeit: Das Beethoven-Jahr in Bonn startet mit
+                    großem Konzert
+                  </h4>
+                  <p>
+                    Das Beethoven-Jahr in Bonn wurde mit einem spektakulären
+                    Konzert im Beethoven-Haus eröffnet, bei dem die 9. Sinfonie
+                    des Komponisten gefeiert wurde. Modernste Technologie
+                    ermöglichte es den Besuchern, das Konzert auch in virtueller
+                    Realität zu erleben, was die Verbindung von Tradition.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-sm-12">
+                <div
+                  style="
+                    margin-bottom: 20px;
+                    padding: 20px;
+                    border: 1px solid #4a4b6d;
+                    text-align: center;
+                  "
+                >
+                  <img
+                    src="./img/about-4.jpg"
+                    alt="Berliner Filmfestivals: Einblick in die Zukunft des Films"
+                    width="100%"
+                    style="margin-top: 10px; margin-bottom: 10px; height: 330px; object-fit: cover;"
+                  />
+                  <h4>
+                    Berliner Filmfestivals: Einblick in die Zukunft des Films
+                  </h4>
+                  <p>
+                    Das Berliner Filmfestival präsentierte bahnbrechende Filme,
+                    die sich mit sozialen und politischen Themen
+                    auseinandersetzen. Besonders hervorgehoben wurde eine
+                    Dokumentation über die Flüchtlingskrise, die den Preis für
+                    den besten Film gewann und einen neuen Trend in der
+                    Filmindustrie setzte.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Service Start -->
+
+      <section>
+        <div class="container">
+          <h2
+            class="section-title wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="margin-bottom: 50px; color: #fff"
+          >
+            Nachrichten der Woche
+          </h2>
+          <div class="row">
+            <div class="col-md-3 col-sm-12">
+              <div
+                style="
+                  background-color: #f4f4f4;
+                  color: #151872;
+
+                  border: 1px solid #151872;
+                  margin-bottom: 20px;
+                  padding: 20px;
+                "
+              >
+                <h5 style="color: #151872">
+                  Eröffnung der neuen Kunstgalerie in München
+                </h5>
+                <p>
+                  In München wurde kürzlich eine neue Kunstgalerie eröffnet, die
+                  moderne Kunstwerke von internationalen Künstlern präsentiert.
+                  Die Galerie bietet eine Plattform für zeitgenössische Kunst
+                  und stellt Werke aus verschiedenen Medien aus, darunter
+                  Malerei, Skulpturen und digitale Kunst. Die Eröffnungsfeier
+                  zog zahlreiche Kunstliebhaber und prominente Persönlichkeiten
+                  an, die die innovative Ausstellung bewunderten. Die Galerie
+                  ist nun ein bedeutender Anlaufpunkt für Kunstfreunde in der
+                  Stadt.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div
+                style="
+                    background-color: #f4f4f4;
+                  color: #151872;
+
+                  border: 1px solid #151872;
+                  margin-bottom: 25px;
+                  padding: 20px 20px 10px;
+
+                "
+              >
+                <h5 style="color: #151872">
+                  Olympische Hoffnung: Deutsche Athleten bereiten sich auf die
+                  Spiele 2024 vor
+                </h5>
+                <p>
+                  Die deutschen Athleten bereiten sich intensiv auf die
+                  bevorstehenden Olympischen Spiele 2024 in Paris vor. Mit einer
+                  Reihe von Trainingslagern und speziellen Programmen zur
+                  Leistungssteigerung sind sie hochmotiviert, ihre
+                  Bestleistungen zu erbringen. Besonders im Fokus stehen die
+                  Leichtathleten und Schwimmer, die in den letzten Jahren immer
+                  wieder Spitzenleistungen gezeigt haben. Das deutsche Team
+                  hofft, bei den Spielen erneut Medaillen zu gewinnen.
+                </p>
+              </div>
+              <div
+                style="
+                   background-color: #f4f4f4;
+                  color: #151872;
+
+                  border: 1px solid #151872;
+                  padding: 20px 20px 10px;
+                "
+              >
+                <h5 style="color: #151872">
+                  Neues Kulturfestival in Hamburg feiert den internationalen
+                  Austausch
+                </h5>
+                <p>
+                  In Hamburg fand das erste Internationale Kulturfestival statt,
+                  das Kunst, Musik und Literatur aus aller Welt feierte.
+                  Künstler aus verschiedenen Ländern kamen zusammen, um ihre
+                  Werke zu präsentieren und kulturelle Brücken zu schlagen.
+                  Besonders beeindruckend war die Mischung aus traditionellen
+                  und modernen Ausdrucksformen, die das Festival zu einem
+                  einzigartigen Erlebnis machten. Das Festival wird künftig
+                  jährlich stattfinden und ist ein wichtiger Schritt für die
+                  Förderung  des internationalen Dialogs durch Kultur. 
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12">
+              <div
+                style="
+                    background-color: #f4f4f4;
+                  color: #151872;
+
+                  border: 1px solid #151872;
+                  margin-bottom: 20px;
+                  padding: 20px;
+                "
+              >
+                <h5 style="color: #151872">
+                  Verborgene Talente: Nachwuchskünstler in Berlin im Rampenlicht
+                </h5>
+                <p>
+                  In Berlin wurden kürzlich die Arbeiten junger
+                  Nachwuchskünstler aus der Region in einer Sonderausstellung
+                  gezeigt. Die Ausstellung „Verborgene Talente“ gab
+                  aufstrebenden Künstlern die Gelegenheit, ihre Werke vor einem
+                  breiten Publikum zu präsentieren. Von Fotografie über Malerei
+                  bis hin zu digitalen Kunstformen – die Vielfalt der Arbeiten
+                  zeigte die kreative Energie, die in der Berliner Kunstszene
+                  steckt. Die Ausstellung soll künftig als jährliches Event
+                  etabliert werden, um neue Talente zu fördern. <br><br>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-12 col-sm-12">
+              <div
+                style="
+            background-color: #f4f4f4;
+                  color: #151872;
+
+                  border: 1px solid #151872;
+                  margin-bottom: 20px;
+                  padding: 20px;
+                "
+              >
+                <h5 style="color: #151872">
+                  Kulturelle Highlights im Berliner Theater: Neue Saison startet mit vielversprechenden Stücken
+
+                </h5>
+                <p>
+                  Die neue Saison im Berliner Theater begann mit einer Reihe von vielversprechenden Aufführungen, die sowohl klassische als auch moderne Werke umfassen. Besonders hervorzuheben ist das Stück „Die Verborgenen“, das die Gesellschaftskritik und die zwischenmenschlichen Beziehungen aufgreift. Mit talentierten Schauspielern und beeindruckenden Bühnenbildern wird die Saison als eine der aufregendsten in der Theatergeschichte der Stadt angesehen. Das Theater hat bereits eine hohe Nachfrage nach Tickets, was auf das große Interesse der Zuschauer hinweist.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section>
+        <div class="container">
+          <h2
+            class="section-title wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="margin-bottom: 50px; text-align: center"
+          >
+            Galería de propiedades
+          </h2>
+          <div class="row">
+            <div
+              class="col-md-6 col-sm-12 galery_item"
+              style="position: relative; margin-bottom: 20px"
+            >
+              <img
+                src="./img/singer1.jpg"
+                alt=""
+                width="100%"
+                style="
+                  margin-bottom: 10px;
+                  max-height: 500px;
+                  object-fit: cover;
+                "
+              />
+              <div
+                style="
+                  position: absolute;
+                  bottom: 10%;
+                  left: 5%;
+                  right: 5%;
+                  color: white;
+                  background: rgba(0, 0, 0, 0.5);
+                  padding: 10px;
+                  border-radius: 5px;
+                "
+              >
+                <h6 style="margin: 0; color: white">
+                  Villa de lujo en la Costa Blanca
+                </h6>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-sm-12 galery_item"
+              style="position: relative; margin-bottom: 20px"
+            >
+              <img
+                src="./img/singer2.jpg"
+                alt=""
+                width="100%"
+                style="
+                  margin-bottom: 10px;
+                  max-height: 500px;
+                  object-fit: cover;
+                "
+              />
+              <div
+                style="
+                  position: absolute;
+                  bottom: 10%;
+                  left: 5%;
+                  right: 5%;
+                  color: white;
+                  background: rgba(0, 0, 0, 0.5);
+                  padding: 10px;
+                  border-radius: 5px;
+                "
+              >
+                <h6 style="margin: 0; color: white">
+                  Apartamento con diseño moderno en Madrid
+                </h6>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-sm-12 galery_item"
+              style="position: relative; margin-bottom: 20px"
+            >
+              <img
+                src="./img/singer3.jpg"
+                alt=""
+                width="100%"
+                style="margin-bottom: 10px"
+              />
+              <div
+                style="
+                  position: absolute;
+                  bottom: 10%;
+                  left: 5%;
+                  right: 5%;
+                  color: white;
+                  background: rgba(0, 0, 0, 0.5);
+                  padding: 10px;
+                  border-radius: 5px;
+                "
+              >
+                <h6 style="margin: 0; color: white">
+                  Casa rústica en un entorno natural
+                </h6>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-sm-12 galery_item"
+              style="position: relative; margin-bottom: 20px"
+            >
+              <img
+                src="./img/singer4.jpg"
+                alt=""
+                width="100%"
+                style="margin-bottom: 10px"
+              />
+              <div
+                style="
+                  position: absolute;
+                  bottom: 10%;
+                  left: 5%;
+                  right: 5%;
+                  color: white;
+                  background: rgba(0, 0, 0, 0.5);
+                  padding: 10px;
+                  border-radius: 5px;
+                "
+              >
+                <h6 style="margin: 0; color: white">
+                  Ático exclusivo en Valencia
+                </h6>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-sm-12 galery_item"
+              style="position: relative; margin-bottom: 20px"
+            >
+              <img
+                src="./img/singer5.jpg"
+                alt=""
+                width="100%"
+                style="margin-bottom: 10px"
+              />
+              <div
+                style="
+                  position: absolute;
+                  bottom: 10%;
+                  left: 5%;
+                  right: 5%;
+                  color: white;
+                  background: rgba(0, 0, 0, 0.5);
+                  padding: 10px;
+                  border-radius: 5px;
+                "
+              >
+                <h6 style="margin: 0; color: white">
+                  Chalet con encanto en la Sierra de Madrid
+                </h6>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-sm-12 galery_item"
+              style="position: relative; margin-bottom: 20px"
+            >
+              <img
+                src="./img/singer6.jpg"
+                alt=""
+                width="100%"
+                style="margin-bottom: 10px"
+              />
+              <div
+                style="
+                  position: absolute;
+                  bottom: 10%;
+                  left: 5%;
+                  right: 5%;
+                  color: white;
+                  background: rgba(0, 0, 0, 0.5);
+                  padding: 10px;
+                  border-radius: 5px;
+                "
+              >
+                <h6 style="margin: 0; color: white">
+                  Piso céntrico en Sevilla
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <div
+        id="contact"
+        style="
+          margin-bottom: 120px;
+          margin-top: 50px;
+          background-color: #ffffff;
+
+          padding-bottom: 40px;
+        "
+        class="container-xxl"
+      >
+        <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h2
+              class="section-title"
+              style="margin-bottom: 50px; color: #1d0a36"
+            >
+              Kontakte
+            </h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-12">
+              <div class="wow fadeInUp" data-wow-delay="0.2s">
+                <form style="color: #333333">
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Dein Name"
+                        />
+                        <label for="name">Vorname</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="surname"
+                          placeholder="Dein Nachname"
+                        />
+                        <label for="surname">Nachname</label>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-floating">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          placeholder="Deine E-Mail-Adresse"
+                        />
+                        <label for="email">E-Mail-Adresse</label>
+                        <p style="color: red" id="result"></p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12">
+                      <div class="form-floating">
+                        <input
+                          style="
+                            margin-bottom: 10px;
+                            padding-top: 15px;
+                            padding-bottom: 15px;
+                          "
+                          id="phone"
+                          type="tel"
+                          placeholder="Telefon"
+                          class="form-control"
+                          oninput="validateAndFormatPhoneNumber(this)"
+                        />
+                        <p style="color: red" id="phoneResult"></p>
+                      </div>
+                    </div>
+
+                    <div
+                      class="col-12 wow fadeIn"
+                      data-wow-delay="0.9s"
+                      style="margin-top: 20px"
+                    >
+                      <select
+                        id="question"
+                        class="form-control"
+                        style="margin-bottom: 10px; padding: 15px 10px"
+                      >
+                        <option value="">Thema des Aufrufs:</option>
+                        <option value="consultation">Sport</option>
+                        <option value="real-estate-sale">Kunst</option>
+                        <option value="real-estate-purchase">Kultur</option>
+                      </select>
+                      <p style="color: red" id="questionResult"></p>
+                    </div>
+
+                    <div class="col-12">
+                      <button
+                        id="submit"
+                        onclick="sendForm()"
+                        class="btn btn-primary w-100 py-3"
+                        type="submit"
+                      >
+                        Nachricht senden
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact End -->
+
+      <!-- Footer Start -->
+      <div
+        class="container-fluid bg-dark text-light footer wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container pb-5">
+          <div class="row g-5">
+            <div class="col-md-2 col-lg-3">
+              <div class="bg-primary rounded p-2">
+                <p class="text-white mb-0 text-uppercase">
+                  <a href="index.html" style="color: #ffffff">AktuelleWelt</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <p class="mb-2">+4989124136800</p>
+              <p class="mb-2">AktuelleWelt@gmail.com</p>
+              <p class="mb-2">Herzog-Heinrich-Straße 38, 80336 München, Deutschland</p>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="row">
+                <div class="col-md-6">
+                  <a href="index.html" class="btn-link">Startseite</a>
+                  <a href="catalog.html" class="btn-link">Katalog</a>
+                  <a href="about.html" class="btn-link">Über uns</a>
+                  <a href="contact.html" class="btn-link">Kontakt</a>
+                </div>
+                <div class="col-md-6">
+                  <a class="btn-link" href="privacy-policy.html"
+                    >Datenschutzerklärung
+                  </a>
+                  <a class="btn-link" href="terms-of-use.html"
+                    >Nutzungsbedingungen</a
+                  >
+                  <a class="btn-link" href="information.html">
+                    Business Model</a
+                  >
+                  <a class="btn-link" href="cookies.html">Cookie-Richtlinie</a>
+                  <a class="btn-link" href="disclaimer.html">Disclaimer</a>
+                </div>
+              </div>
+            </div>
+            <!-- 
+            <div class="col-md-10 text-start">
+              <h5>Disclaimer</h5>
+              <p>
+               El contenido de este sitio web, incluidas todas las imágenes y textos, es propiedad exclusiva de AktuelleWelt o de sus respectivos autores y está protegido por derechos de autor. Cualquier reproducción, distribución o uso no autorizado está estrictamente prohibido. Para consultas sobre derechos o colaboraciones, contáctanos directamente.
+              </p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+
+      <!-- Cookie banner -->
+      <div class="cookie-wrapper show">
+        <div>
+          <i class="bx bx-cookie"></i>
+          <h2 style="text-align: center; color: #1d0a36">Cookie-Zustimmung</h2>
+        </div>
+        <div class="data">
+          <p>
+            Diese Website verwendet Cookies, um dir ein personalisiertes und
+            effizienteres Surferlebnis zu bieten. Um mehr darüber zu erfahren,
+            wie wir deine Daten verwenden, lies bitte unsere
+            <a class="" href="cookies.html"
+              >Cookie-Richtlinie und Präferenzen</a
+            >
+            sowie unsere
+            <a class="" href="privacy-policy.html"
+              >Datenschutz- und Sicherheitsrichtlinie</a
+            >.
+          </p>
+        </div>
+
+        <div class="buttons">
+          <button class="cookie-button" id="acceptBtn">Akzeptieren</button>
+          <button class="cookie-button" id="declineBtn">Ablehnen</button>
+        </div>
+      </div>
+
+      <!-- End Cookie banner -->
+
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="js/cookiebanner.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+    <script>
+      function validatePhoneNumber(input) {
+        input.value = input.value.replace(/\D/g, "");
+      }
+
+      function validateAndFormatPhoneNumber(input) {
+        // Очищення всіх символів, окрім цифр
+        input.value = input.value.replace(/\D/g, "");
+      }
+    </script>
+  </body>
+</html>
